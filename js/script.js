@@ -15,8 +15,8 @@ function userInputClick() {
 
   // Checks if user should go to the movies
   if ((day == "tuesday" || day == "thursday") || (age > 12 && age < 21)) {
-    document.getElementById("output").innerHTML = "You should go because you will get a discount"
+    document.getElementById("output").innerHTML = "You should go to the museum because you will get a discount"
   } else {
-    document.getElementById("output").innerHTML = "You should not go today because you will not get a discount"
+    document.getElementById("output").innerHTML = "You should not go to the museum today because you will not get a discount"
   }
 }
